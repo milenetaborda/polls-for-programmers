@@ -1,0 +1,8 @@
+{
+  "name": "polls-for-programmers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/milenetaborda/polls-for-programmers.git",
+  "author": "Milene Taborda <milenetaborda1@outlook.com>",
+  "license": "MIT"
+}
