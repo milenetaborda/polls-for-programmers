@@ -6,7 +6,8 @@
   "author": "Milene Taborda <milenetaborda1@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest --passWithNoTests",
+    "start": "webpack-dev-server --open",
+    "test": "jest --passWithNoTests --no-cache --runInBand",
     "test:watch": "npm test -- --watch",
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage"
@@ -19,6 +20,7 @@
     "@types/react": "^17.0.1",
     "@types/react-dom": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "clean-webpack-plugin": "^3.0.0",
     "eslint": "^6.8.0",
     "eslint-config-standard-with-typescript": "16.0.0",
     "eslint-plugin-import": "^2.20.2",
@@ -31,7 +33,10 @@
     "jest": "^26.4.2",
     "lint-staged": "^10.4.0",
     "ts-jest": "^26.4.1",
-    "typescript": "^4.0.3"
+    "typescript": "^4.0.3",
+    "webpack": "^5.20.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
     "axios": "^0.21.1",
