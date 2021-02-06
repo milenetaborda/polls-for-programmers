@@ -4,7 +4,7 @@ import { Login } from '@/presentation/pages'
 import '@/presentation/styles/global.scss'
 
 const Router: React.FC = () => {
-  return(
+  return (
     <BrowserRouter>
       <Switch>
         <Route path="/login" exact component={Login} />
