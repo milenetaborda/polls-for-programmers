@@ -5,9 +5,9 @@ import Logo from '@/presentation/components/logo/logo'
 const LoginHeader: React.FC = () => {
   return (
     <header className={Styles.header}>
-    <Logo />
-    <h1>4Dev - Enquetes para Programadores</h1>
-  </header>
+      <Logo />
+      <h1>4Dev - Enquetes para Programadores</h1>
+    </header>
   )
 }
 
